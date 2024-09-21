@@ -11,7 +11,7 @@ public class NavigatorStrategy {
         navigator.buildRoute("C", "D");
 
         navigator.setRouteStrategy(new WalkingRouteStrategy());
-        navigator.buildRoute("E", "F");
+        navigator.buildRoute("E", "G");
 
         navigator.setRouteStrategy(new PublicTransportRouteStrategy());
         navigator.buildRoute("I", "J");
